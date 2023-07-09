@@ -1,0 +1,32 @@
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "jhonitay@gmail.com",
+    "password" : "jhonojhon"
+
+}
+
+###
+POST  http://127.0.0.1:5000/signup
+Content-Type: application/json
+
+{
+    "email" : "jhonitay@gmail.com",
+    "password" : "jhonojhon",
+    "username" : "jhonitay"
+
+
+}
+###
+POST  http://127.0.0.1:5000/contacts
+Content-Type: application/json
+
+{
+    "name": "yoga",
+    "email": "berat@gmail.c",
+    "phoneNumber": "333333333",
+    "message": "memek datanng teman bubar"
+}
+###
+POST  http://127.0.0.1:5000/getcontacts
